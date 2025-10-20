@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Open Graph placeholder image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="72" y="160" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="64" fill="#ffffff" opacity="0.95">Your Name</text>
+  <text x="72" y="220" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="36" fill="#e0f2fe" opacity="0.95">Software Engineer / Web Developer</text>
+  <rect x="72" y="280" width="480" height="10" fill="#93c5fd" opacity="0.8"/>
+  <rect x="72" y="310" width="360" height="10" fill="#bfdbfe" opacity="0.8"/>
+</svg>
