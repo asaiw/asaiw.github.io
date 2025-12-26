@@ -3,21 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name — Software Engineer / Web Developer</title>
-  <meta name="description" content="Your Name — a modern, responsive personal homepage template. Replace placeholder content with your own.">
+  <title>Your Name — 博客 & 开发者</title>
+  <meta name="description" content="Your Name 的个人博客，分享技术文章、开发经验和项目实践。">
   <link rel="canonical" href="https://asaiw.github.io/">
+  <link rel="alternate" type="application/rss+xml" title="博客订阅" href="/feed.xml">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Your Name — Software Engineer / Web Developer">
-  <meta property="og:description" content="A modern, responsive personal homepage template. Replace placeholder content with your own.">
+  <meta property="og:title" content="Your Name — 博客 & 开发者">
+  <meta property="og:description" content="分享技术文章、开发经验和项目实践">
   <meta property="og:url" content="https://asaiw.github.io/">
   <meta property="og:image" content="assets/og-image.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Your Name — Software Engineer / Web Developer">
-  <meta name="twitter:description" content="A modern, responsive personal homepage template. Replace placeholder content with your own.">
+  <meta name="twitter:title" content="Your Name — 博客 & 开发者">
+  <meta name="twitter:description" content="分享技术文章、开发经验和项目实践">
   <meta name="twitter:image" content="assets/og-image.png">
 
   <!-- Icons -->
@@ -46,6 +47,7 @@
 
       <nav id="primary-nav" class="site-nav" aria-label="Primary">
         <ul>
+          <li><a href="#blog">博客</a></li>
           <li><a href="#about">关于</a></li>
           <li><a href="#skills">技能</a></li>
           <li><a href="#projects">项目</a></li>
@@ -62,13 +64,37 @@
         <img class="avatar" src="assets/avatar-placeholder.svg" alt="Your Name avatar placeholder" width="144" height="144" loading="eager" decoding="async">
         <div class="hero-text">
           <h1 id="hero-title">Your Name</h1>
-          <p class="tagline">Software Engineer / Web Developer</p>
-          <p>Welcome to your modern, responsive GitHub Pages homepage. This template uses semantic HTML, accessible navigation, and a clean design. Replace these placeholders with your own content.</p>
-          <p>Everything here is built with pure HTML, CSS, and JS — no frameworks, no build steps. It’s optimized for performance, accessibility, and SEO out of the box.</p>
+          <p class="tagline">全栈开发者 / 技术博主</p>
+          <p>欢迎来到我的个人博客，我在这里分享关于 Web 开发、软件工程和技术实践的文章。探索我的最新博文、技术项目和开发经验。</p>
+          <p>这里记录了我的技术成长之路，包括前端、后端、DevOps 等多个领域的实践经验和深度思考。</p>
           <div class="hero-cta">
-            <a class="button primary" href="#projects">查看项目</a>
+            <a class="button primary" href="#blog">阅读博客</a>
             <a class="button" href="#contact">联系我</a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="section reveal" aria-labelledby="blog-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="blog-title">最新博文</h2>
+          <div class="blog-controls">
+            <div class="search-box">
+              <input type="search" id="blog-search" placeholder="搜索文章..." aria-label="搜索博客文章">
+              <span class="search-icon" aria-hidden="true">🔍</span>
+            </div>
+            <div class="filter-tags" id="filter-tags">
+              <button class="tag-filter active" data-tag="all">全部</button>
+            </div>
+          </div>
+        </div>
+        <div id="blog-posts" class="blog-grid">
+          <!-- Blog posts will be dynamically inserted here by JavaScript -->
+        </div>
+        <div id="blog-pagination" class="pagination">
+          <!-- Pagination will be dynamically inserted here -->
         </div>
       </div>
     </section>
@@ -77,22 +103,26 @@
     <section id="about" class="section reveal" aria-labelledby="about-title">
       <div class="container">
         <h2 id="about-title">关于我</h2>
-        <p>我是 Your Name，一名专注于打造快速、可访问且用户友好的 Web 体验的工程师。这里的文字是占位内容，你可以在 README 中看到如何替换它们。</p>
-        <p>本主页采用移动优先的响应式布局，提供深浅色主题切换、平滑滚动、入场动效（尊重“减少动态效果”设置）等功能。</p>
+        <p>我是 Your Name，一名全栈开发者和技术博主。专注于 Web 技术、软件架构和开发者工具。我喜欢通过写作分享我的学习经验和技术见解。</p>
+        <p>在这个博客中，你会发现关于前端框架、后端开发、DevOps 实践、性能优化等主题的深度文章。每篇文章都是我实际项目经验的总结和思考。</p>
       </div>
     </section>
 
     <!-- Skills -->
     <section id="skills" class="section reveal" aria-labelledby="skills-title">
       <div class="container">
-        <h2 id="skills-title">技能</h2>
+        <h2 id="skills-title">技术栈</h2>
         <ul class="badge-list" role="list">
-          <li class="badge">HTML</li>
-          <li class="badge">CSS</li>
-          <li class="badge">JavaScript</li>
-          <li class="badge">Accessibility</li>
-          <li class="badge">Performance</li>
-          <li class="badge">SEO</li>
+          <li class="badge">JavaScript / TypeScript</li>
+          <li class="badge">React / Vue</li>
+          <li class="badge">Node.js</li>
+          <li class="badge">Python</li>
+          <li class="badge">Docker / K8s</li>
+          <li class="badge">PostgreSQL / MongoDB</li>
+          <li class="badge">AWS / Azure</li>
+          <li class="badge">CI/CD</li>
+          <li class="badge">微服务架构</li>
+          <li class="badge">性能优化</li>
         </ul>
       </div>
     </section>
@@ -181,7 +211,7 @@
 
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <p>© <span id="year"></span> Your Name. Built with HTML • CSS • JS. 全部占位内容可自行替换。</p>
+      <p>© <span id="year"></span> Your Name. 博客 • 技术分享 • 开源项目 | <a href="/feed.xml" target="_blank">RSS 订阅</a></p>
     </div>
   </footer>
 
@@ -196,7 +226,7 @@
         "url": "https://asaiw.github.io/",
         "image": "https://asaiw.github.io/assets/avatar-placeholder.svg",
         "email": "mailto:you@example.com",
-        "jobTitle": "Software Engineer / Web Developer",
+        "jobTitle": "全栈开发者 / 技术博主",
         "sameAs": [
           "https://github.com/your",
           "https://www.linkedin.com/in/your"

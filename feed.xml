@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your Name - 技术博客</title>
+    <description>分享 Web 开发、软件工程和技术实践的文章</description>
+    <link>https://asaiw.github.io/</link>
+    <atom:link href="https://asaiw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    
+    <item>
+      <title>构建高性能的现代 Web 应用</title>
+      <description>探索如何使用最新的 Web 技术栈构建快速、可扩展的应用程序。从前端优化到后端架构设计，本文将带你深入了解现代 Web 开发的最佳实践。</description>
+      <link>https://asaiw.github.io/#blog-post-1</link>
+      <guid>https://asaiw.github.io/#blog-post-1</guid>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <category>性能优化</category>
+      <category>架构设计</category>
+      <category>Web开发</category>
+    </item>
+    
+    <item>
+      <title>TypeScript 高级类型系统详解</title>
+      <description>深入理解 TypeScript 的类型系统，包括泛型、条件类型、映射类型等高级特性。通过实际案例学习如何编写类型安全且可维护的代码。</description>
+      <link>https://asaiw.github.io/#blog-post-2</link>
+      <guid>https://asaiw.github.io/#blog-post-2</guid>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <category>TypeScript</category>
+      <category>前端开发</category>
+    </item>
+    
+    <item>
+      <title>Docker 和 Kubernetes 实战指南</title>
+      <description>从零开始学习容器化技术，了解 Docker 的核心概念和 Kubernetes 的编排能力。本文将指导你完成从开发到生产的完整部署流程。</description>
+      <link>https://asaiw.github.io/#blog-post-3</link>
+      <guid>https://asaiw.github.io/#blog-post-3</guid>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <category>DevOps</category>
+      <category>Docker</category>
+      <category>Kubernetes</category>
+    </item>
+    
+  </channel>
+</rss>
